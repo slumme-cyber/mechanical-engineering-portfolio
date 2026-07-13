@@ -1,32 +1,54 @@
+import Image from "next/image";
 export default function Hero() {
   return (
-    <section className="mx-auto flex max-w-5xl flex-col items-center px-8 py-24 text-center">
-      <p className="mb-4 text-sm uppercase tracking-[0.3em] text-slate-500">
-        Virginia Tech
-      </p>
+    <section className="border-b border-slate-200 bg-slate-50/80">
+      <div className="mx-auto grid min-h-[78vh] max-w-6xl items-center gap-12 px-6 py-20 md:grid-cols-[1.2fr_0.8fr]">
+        <div>
+          <p className="text-sm font-semibold uppercase tracking-[0.28em] text-slate-500">
+            Virginia Tech Mechanical Engineering
+          </p>
 
-      <h1 className="text-6xl font-bold">
-        Sam Lum
-      </h1>
+          <h1 className="mt-5 max-w-3xl text-5xl font-bold leading-tight tracking-tight text-slate-950 md:text-7xl">
+            Sam Lum
+          </h1>
 
-      <h2 className="mt-4 text-2xl text-slate-600">
-        Mechanical Engineering Student
-      </h2>
+          <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600">
+            I’m a mechanical engineering student with experience in
+            CAD, surveying, drafting, construction, and product development.
+            I’m pursuing opportunities in defense, aerospace, and advanced
+            manufacturing.
+          </p>
 
-      <p className="mt-8 max-w-2xl text-lg leading-8 text-slate-700">
-        Designing practical engineering solutions through CAD, surveying,
-        drafting, and mechanical design while pursuing a career in the defense
-        and aerospace industries.
-      </p>
+          <div className="mt-10 flex flex-wrap gap-4">
+            <a
+              href="#projects"
+              className="rounded-md bg-slate-950 px-6 py-3 font-medium text-white transition hover:bg-slate-700"
+            >
+              View Projects
+            </a>
 
-      <div className="mt-12 flex gap-4">
-        <button className="rounded-lg bg-slate-900 px-6 py-3 text-white transition hover:bg-slate-700">
-          View Projects
-        </button>
+            <a
+              href="/resume.pdf"
+              className="rounded-md border border-slate-300 bg-white px-6 py-3 font-medium text-slate-900 transition hover:border-slate-500 hover:bg-slate-100"
+            >
+              Download Resume
+            </a>
+          </div>
+        </div>
 
-        <button className="rounded-lg border border-slate-900 px-6 py-3 transition hover:bg-slate-100">
-          Download Resume
-        </button>
+        <div className="flex justify-center lg:justify-end">
+  <div className="flex justify-center lg:justify-end">
+  <div className="relative h-100 w-80 overflow-hidden rounded-3xl border-4 border-white shadow-2xl ring-1 ring-slate-200">
+    <Image
+      src="/images/projects/headshot.jpg"
+      alt="Professional headshot of Sam Lum"
+      fill
+      priority
+      className="object-cover object-top"
+    />
+  </div>
+</div>
+</div>
       </div>
     </section>
   );
