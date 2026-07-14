@@ -17,36 +17,46 @@ export default function ProjectCard({
   image,
 }: ProjectCardProps) {
   return (
-    <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
-      <div className="relative mb-6 h-48 overflow-hidden rounded-lg">
-  <Image
-    src={image}
-    alt={title}
-    fill
-    className="object-cover transition duration-300 hover:scale-105"
-  />
-</div>
-<h3 className="text-2xl font-bold">{title}</h3>
-
-      <p className="mt-4 text-slate-600">{description}</p>
-
-      <div className="mt-6 flex flex-wrap gap-2">
-        {skills.map((skill) => (
-          <span
-            key={skill}
-            className="rounded-full bg-slate-100 px-3 py-1 text-sm"
-          >
-            {skill}
-          </span>
-        ))}
+    <Link
+      href={`/projects/${slug}`}
+      className="group block overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition duration-300 hover:-translate-y-2 hover:shadow-xl"
+    >
+      <div className="relative h-64 overflow-hidden bg-slate-100">
+        <Image
+          src={image}
+          alt={title}
+          fill
+          className="object-cover transition duration-500 group-hover:scale-105"
+        />
       </div>
 
-      <Link
-        href={`/projects/${slug}`}
-        className="mt-8 inline-block rounded-lg bg-slate-900 px-5 py-2 text-white transition hover:bg-slate-700"
-      >
-        View Project
-      </Link>
-    </div>
+      <div className="p-6">
+        <h3 className="text-2xl font-bold text-slate-900">
+          {title}
+        </h3>
+
+        <p className="mt-3 leading-7 text-slate-600">
+          {description}
+        </p>
+
+        <div className="mt-5 flex flex-wrap gap-2">
+          {skills.map((skill) => (
+            <span
+              key={skill}
+              className="rounded-full bg-slate-100 px-3 py-1 text-sm font-medium text-slate-700"
+            >
+              {skill}
+            </span>
+          ))}
+        </div>
+
+        <div className="mt-6 font-semibold text-[#7A263A]">
+          View Project
+          <span className="ml-2 inline-block transition-transform group-hover:translate-x-1">
+            →
+          </span>
+        </div>
+      </div>
+    </Link>
   );
 }
