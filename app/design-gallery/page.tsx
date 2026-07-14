@@ -4,18 +4,30 @@ import Link from "next/link";
 const cadProjects = [
   {
     title: "TouCan Assembly",
+    category: "Product Assembly",
+    software: "Siemens NX",
+    description:
+      "Complete assembly showing the external controls, internal component packaging, mounting structure, and integration with the trash can.",
     image: "/images/design-gallery/toucan-assembly.png",
-    padding: "p-6",
+    padding: "p-1",
   },
   {
     title: "Electronics Integration",
+    category: "Component Packaging",
+    software: "Siemens NX",
+    description:
+      "Detailed arrangement of the Arduino, OLED display, wiring, structural supports, and surrounding enclosure components.",
     image: "/images/design-gallery/toucan-electronics.png",
-    padding: "p-10",
+    padding: "p-2",
   },
   {
     title: "Control Housing",
+    category: "Enclosure Design",
+    software: "Siemens NX",
+    description:
+      "External housing designed to position the display and controls while protecting the electronics and maintaining a compact form.",
     image: "/images/design-gallery/toucan-housing.png",
-    padding: "p-14",
+    padding: "p-4",
   },
 ];
 
@@ -99,13 +111,13 @@ export default function CadGalleryPage() {
 
               <div className="group relative min-h-[440px] overflow-hidden rounded-[2rem] border border-slate-200 bg-slate-100 shadow-[0_28px_80px_-50px_rgba(15,23,42,0.45)] md:min-h-[650px]">
                 <Image
-                  src={project.image}
-                  alt={`${project.title} CAD render`}
-                  fill
-                  priority={index === 0}
-                  sizes="(min-width: 1024px) 65vw, 100vw"
-                  className={`object-cover transition duration-700 group-hover:scale-[1.02] ${project.imagePosition}`}
-                />
+  src={project.image}
+  alt={`${project.title} CAD render`}
+  fill
+  priority={index === 0}
+  sizes="(min-width: 1024px) 65vw, 100vw"
+  className={`object-contain ${project.padding} transition duration-700 group-hover:scale-[1.02]`}
+/>
 
                 <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-slate-950/10 via-transparent to-white/5" />
               </div>
