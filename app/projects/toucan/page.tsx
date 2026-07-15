@@ -68,12 +68,14 @@ export default function TouCanProjectPage() {
       {/* Hero */}
       <section className="mx-auto max-w-7xl px-6 pb-20 pt-10 md:pb-28 md:pt-14 lg:px-8">
         <Link
-          href="/#projects"
-          className="inline-flex items-center gap-2 text-sm font-semibold text-[#7A263A] transition duration-300 hover:-translate-x-1 hover:opacity-70"
-        >
-          <span aria-hidden="true">←</span>
-          Back to projects
-        </Link>
+  href="/projects"
+  className="inline-flex items-center font-semibold text-[#7A263A] transition hover:opacity-75"
+>
+  <span className="mr-2" aria-hidden="true">
+    ←
+  </span>
+  Back to Projects
+</Link>
 
         <div className="mt-12 grid items-center gap-12 lg:grid-cols-[0.88fr_1.12fr] lg:gap-16">
           <div>
@@ -508,7 +510,11 @@ export default function TouCanProjectPage() {
           </p>
 
           <p className="mt-8 max-w-3xl text-lg leading-8 text-slate-600">
-            This project was completed under the supervision of Dr. Richard L. Clark, Jr. as part of Virginia Tech's engineering design curriculum. He observed the project's progression from concept development through CAD, prototyping, testing, and the final presentation. Recruiters are welcome to contact him regarding my contributions to the project.
+            TouCan was completed under the guidance of Dr. Richard L.
+            Clark, Jr. throughout Virginia Tech's engineering design
+            curriculum. During the semester he evaluated our team's
+            engineering process, technical decisions, CAD development,
+            prototype integration, collaboration, and final presentation.
           </p>
 
           <div className="mt-10 flex flex-wrap gap-4">
@@ -613,14 +619,12 @@ export default function TouCanProjectPage() {
           </div>
 
           <Link
-            href="/#projects"
-            className="inline-flex items-center font-semibold text-[#7A263A] transition hover:gap-3 hover:opacity-75"
-          >
-            Back to featured projects
-            <span className="ml-2" aria-hidden="true">
-              →
-            </span>
-          </Link>
+              href="/projects"
+              className="mb-8 inline-flex items-center gap-2 text-sm font-semibold text-slate-500 transition hover:text-[#7A263A]"
+            >
+              <span aria-hidden="true">←</span>
+              Back to Projects
+            </Link>
         </div>
       </section>
     </main>

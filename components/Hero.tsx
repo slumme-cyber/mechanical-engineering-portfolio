@@ -27,7 +27,7 @@ export default function Hero() {
   </p>
           <div className="mt-10 flex flex-wrap gap-4">
   <a
-    href="#projects"
+    href="projects"
     className="rounded-xl bg-[#7A263A] px-6 py-3 font-semibold text-white transition hover:opacity-90"
   >
     View Projects
@@ -41,7 +41,7 @@ export default function Hero() {
   </a>
 
   <a
-    href="https://linkedin.com/in/YOUR-LINK"
+    href="https://linkedin.com/in/sam-lum"
     target="_blank"
     rel="noopener noreferrer"
     className="rounded-xl border border-slate-300 px-6 py-3 font-semibold transition hover:bg-slate-100"

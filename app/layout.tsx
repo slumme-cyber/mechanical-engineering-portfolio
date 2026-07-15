@@ -21,20 +21,16 @@ export const metadata: Metadata = {
 
 const navItems = [
   {
-    label: "About",
-    href: "/#about",
+    label: "Home",
+    href: "/",
   },
   {
     label: "Projects",
-    href: "/#projects",
+    href: "/projects",
   },
   {
-    label: "Design Gallery",
-    href: "/design-gallery",
-  },
-  {
-    label: "Resume",
-    href: "/resume",
+    label: "About",
+    href: "/about",
   },
 ];
 
@@ -68,20 +64,40 @@ export default function RootLayout({
                 </Link>
               ))}
 
-              <Link
-                href="/contact"
-                className="rounded-full border border-slate-300 px-5 py-2.5 text-sm font-medium text-slate-800 transition hover:border-[#7A263A] hover:text-[#7A263A]"
+              <a
+                href="/resume.pdf"
+                target="_blank"
+                rel="noreferrer"
+                className="text-sm font-medium text-slate-600 transition hover:text-[#7A263A]"
               >
-                Contact
-              </Link>
+                Resume
+              </a>
+
+              <Link
+  href="/contact"
+  className="rounded-full bg-[#7A263A] px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-[#641f30]"
+>
+  Contact
+</Link>
             </nav>
 
-            <Link
-              href="/contact"
-              className="rounded-full border border-slate-300 px-4 py-2 text-sm font-medium text-slate-800 transition hover:border-[#7A263A] hover:text-[#7A263A] md:hidden"
-            >
-              Contact
-            </Link>
+            <div className="flex items-center gap-3 md:hidden">
+              <a
+                href="/resume.pdf"
+                target="_blank"
+                rel="noreferrer"
+                className="rounded-full border border-slate-300 px-5 py-2.5 text-sm font-medium text-slate-800 transition hover:border-[#7A263A] hover:text-[#7A263A]"
+              >
+                Resume
+              </a>
+
+              <a
+                href="mailto:slumme@vt.edu"
+                className="rounded-full bg-[#7A263A] px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-[#641f30]"
+              >
+                Contact
+              </a>
+            </div>
           </div>
         </header>
 
