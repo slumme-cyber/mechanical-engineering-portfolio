@@ -16,9 +16,77 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sam Lum | Mechanical Engineering Portfolio",
+  metadataBase: new URL("https://mechanical-engineering-portfolio-kappa.vercel.app"),
+
+  title: {
+    default: "Sam Lum | Mechanical Engineering Portfolio",
+    template: "%s | Sam Lum",
+  },
+
   description:
-    "Mechanical engineering portfolio focused on product design, CAD, manufacturing, and defense applications.",
+    "Mechanical Engineering student at Virginia Tech seeking a Summer 2027 internship. Portfolio featuring CAD, product development, surveying, manufacturing, and engineering projects.",
+
+  keywords: [
+    "Mechanical Engineering",
+    "Virginia Tech",
+    "Mechanical Engineering Portfolio",
+    "CAD",
+    "Siemens NX",
+    "Fusion 360",
+    "Engineering Student",
+    "Summer 2027 Internship",
+    "Defense Engineering",
+    "Product Design",
+    "Manufacturing",
+    "Surveying",
+  ],
+
+  authors: [
+    {
+      name: "Sam Lum",
+    },
+  ],
+
+  creator: "Sam Lum",
+
+  openGraph: {
+    title: "Sam Lum | Mechanical Engineering Portfolio",
+
+    description:
+      "Mechanical Engineering student at Virginia Tech showcasing engineering projects, CAD design, surveying, and product development.",
+
+    url: "https://mechanical-engineering-portfolio-kappa.vercel.app",
+
+    siteName: "Sam Lum Portfolio",
+
+    locale: "en_US",
+
+    type: "website",
+
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Sam Lum Mechanical Engineering Portfolio",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Sam Lum | Mechanical Engineering Portfolio",
+
+    description:
+      "Mechanical Engineering student at Virginia Tech seeking a Summer 2027 internship.",
+
+    images: ["/og-image.jpg"],
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 const navItems = [
