@@ -16,11 +16,11 @@ export const projects = [
     slug: "westwood",
   },
   {
-    title: "Engineering Portfolio",
-    description:
-      "A portfolio website built with React, Next.js, GitHub, and Tailwind CSS.",
-    image: "/images/projects/portfolio.png",
-    skills: ["React", "Next.js", "Git"],
-    slug: "portfolio",
-  },
+  title: "IR Smart Crosswalk",
+  description:
+    "Designed and prototyped a smart crosswalk system using infrared sensors to detect pedestrians and activate a warning system for approaching traffic.",
+  image: "/images/ir-crosswalk/ir-crosswalk-hero.png",
+  skills: ["Fusion 360", "IR Sensors", "Electronics"],
+  slug: "ir-crosswalk",
+},
 ];

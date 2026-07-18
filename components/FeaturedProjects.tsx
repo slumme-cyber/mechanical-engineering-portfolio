@@ -8,7 +8,7 @@ export default function FeaturedProjects() {
     <section className="mx-auto max-w-6xl px-8 py-20">
     
       <h2 className="mb-10 text-center text-4xl font-bold">
-        Featured Projects
+        Engineering Experiences
       </h2>
 
       <div className="grid gap-8 md:grid-cols-3">

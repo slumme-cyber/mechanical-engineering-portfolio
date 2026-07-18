@@ -7,8 +7,8 @@ export default function Home() {
   return (
     <main className="min-h-screen text-slate-900">
       <Hero />
-      <Skills />
       <FeaturedProjects />
+      <Skills />
       <AboutPreview />
     </main>
   );

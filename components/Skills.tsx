@@ -12,6 +12,14 @@ const skills = [
   "MATLAB",
   "Git",
   "Next.js",
+  "Laser Cutting",
+  "3D Printing",
+  "CNC Machining",
+  "Electronics",
+  "IR Sensors",
+  "Arduino",
+  "Welding",
+  "Carpentry"
 ];
 
 export default function Skills() {
