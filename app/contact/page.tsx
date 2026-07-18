@@ -9,7 +9,7 @@ const contactMethods = [
   {
     label: "Phone",
     value: "(540)-480-6127",
-    href: "tel:5404806127",
+    href: "tel:+15404806127",
   },
   {
     label: "LinkedIn",

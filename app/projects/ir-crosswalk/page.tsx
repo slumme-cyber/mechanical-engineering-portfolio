@@ -343,25 +343,25 @@ export default function IrCrosswalkPage() {
 
             <div className="grid gap-6 sm:grid-cols-2">
               <LessonCard
-                number="   01"
+                number="01"
                 title="Design around real components"
                 description="Accurate component dimensions and cable clearances should guide the enclosure geometry from the beginning."
               />
 
               <LessonCard
-                number="   02"
+                number="02"
                 title="Sensor placement matters"
                 description="The quality of the detection system depends heavily on sensor angle, range, and the surrounding environment."
               />
 
               <LessonCard
-                number="   03"
+                number="03"
                 title="Proof of concept is not field ready"
                 description="A working demonstration validates the idea, but real deployment requires durability, redundancy, and environmental testing."
               />
 
               <LessonCard
-                number="   04"
+                number="04"
                 title="Mechanical and electrical systems are connected"
                 description="Housing geometry, wiring, sensors, and controls must be developed together rather than as separate parts of the project."
               />
