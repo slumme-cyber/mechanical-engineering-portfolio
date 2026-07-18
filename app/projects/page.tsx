@@ -20,6 +20,15 @@ const projects = [
     href: "/projects/ir-crosswalk",
     tools: ["Fusion 360", "Sensor Integration", "Prototyping"],
   },
+  {
+    title: "Mechanical Engineering Portfolio",
+    category: "Web Development & Personal Branding",
+    description:
+      "Designed and built a responsive personal portfolio to present engineering projects, technical experience, and professional goals to recruiters.",
+    image: "/images/portfolio-project.jpg",
+    href: "/projects/engineering-portfolio",
+    tools: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel", "AI"],
+  },
 ];
 
 export default function ProjectsPage() {
@@ -48,7 +57,7 @@ export default function ProjectsPage() {
       {/* Project cards */}
       <section className="py-24">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="grid gap-8 md:grid-cols-2">
+          <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-3">
             {projects.map((project) => (
               <Link
                 key={project.title}
