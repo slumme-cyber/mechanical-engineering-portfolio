@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://mechanical-engineering-portfolio-kappa.vercel.app"),
+  metadataBase: new URL("https://samlum.vercel.app/"),
 
   title: {
     default: "Sam Lum | Mechanical Engineering Portfolio",
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     description:
       "Mechanical Engineering student at Virginia Tech showcasing engineering projects, CAD design, surveying, and product development.",
 
-    url: "https://mechanical-engineering-portfolio-kappa.vercel.app",
+    url: "https://samlum.vercel.app/",
 
     siteName: "Sam Lum Portfolio",
 
