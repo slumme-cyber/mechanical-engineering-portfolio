@@ -65,7 +65,7 @@ export const metadata: Metadata = {
 
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/portfolio-preview.jpg",
         width: 1200,
         height: 630,
         alt: "Sam Lum Mechanical Engineering Portfolio",
@@ -80,7 +80,7 @@ export const metadata: Metadata = {
     description:
       "Mechanical Engineering student at Virginia Tech seeking a Summer 2027 internship.",
 
-    images: ["/og-image.jpg"],
+    images: ["/portfolio-preview.jpg"],
   },
 
   robots: {
