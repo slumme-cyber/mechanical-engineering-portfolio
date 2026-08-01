@@ -9,10 +9,7 @@ export default function AboutPreview() {
 
       <p className="text-lg leading-8 text-slate-600">
         I'm a Mechanical Engineering student at Virginia Tech with experience
-        in product design, CAD, surveying, and construction engineering. I
-        enjoy solving practical engineering problems and am pursuing
-        opportunities in the defense industry where I can contribute to the
-        design and development of innovative systems.
+        in product design, CAD, surveying, and construction engineering. I like taking a rough idea, sketching it, modeling it in CAD, and pushing it through to a working prototype. That loop from concept to something you can hold is what got me into mechanical engineering in the first place.
       </p>
         </section>
   </AnimatedSection>

@@ -19,7 +19,9 @@ const skills = [
   "IR Sensors",
   "Arduino",
   "Welding",
-  "Carpentry"
+  "Carpentry",
+  "ASME",
+  "Excel"
 ];
 
 export default function Skills() {

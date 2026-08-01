@@ -17,21 +17,36 @@ const experienceHighlights = [
     description:
       "Working around active construction operations, underground utilities, paving, site development, and residential infrastructure.",
   },
+  {
+    title: "Division 1 Soccer Student-Manager",
+    description: 
+      "Alongside my engineering coursework, I served as a student manager for the Virginia Tech men's soccer team, coordinating equipment, logistics, and game-day operations for a Division One program, an experience that strengthened my time management and ability to perform reliably under pressure.",
+  }
 ];
 
 const technicalSkills = [
   "Siemens NX",
   "Fusion 360",
-  "SolidWorks",
+  "AutoCAD Civil 3D",
   "Carlson Survey",
-  "Civil 3D",
+  "GPS Surveying",
+  "Total Station",
+  "GD&T",
+  "Product Design",
+  "Python",
   "MATLAB",
+  "Git",
+  "Next.js",
+  "Laser Cutting",
   "3D Printing",
-  "Rapid Prototyping",
-  "Technical Drafting",
-  "Product Development",
-  "GPS and Total Station",
-  "Engineering Analysis",
+  "CNC Machining",
+  "Electronics",
+  "IR Sensors",
+  "Arduino",
+  "Welding",
+  "Carpentry",
+  "ASME",
+  "Excel"
 ];
 
 const values = [
@@ -39,19 +54,19 @@ const values = [
     number: "01",
     title: "Practical design",
     description:
-      "I enjoy engineering work that connects analysis and CAD with something that can be built, tested, and improved.",
+      "On TouCan, I learned that a good mechanism means nothing if it doesn't fit the wiring, the motor, and the user's hand all at once, that's the kind of constraint-juggling I actually enjoy.",
   },
   {
     number: "02",
     title: "Continuous improvement",
     description:
-      "I approach each project as an opportunity to improve my technical skills, decision-making, and understanding of the design process.",
+      "After watching our first TouCan prototype turn into a packaging puzzle, I started sketching for manufacturability from day one instead of fixing it later.",
   },
   {
     number: "03",
     title: "Team contribution",
     description:
-      "I value being dependable, communicating clearly, and helping a team move from an early concept toward a finished result.",
+      "Surveying taught me that a small measurement error costs someone else time and money down the line, so I've gotten particular about catching mistakes before they leave my hands.",
   },
 ];
 
@@ -75,8 +90,7 @@ export default function AboutPage() {
             <p className="mt-8 max-w-3xl text-lg leading-8 text-slate-600 sm:text-xl sm:leading-9">
               I am a mechanical engineering student at Virginia Tech with
               experience in CAD, product development, surveying, construction,
-              and rapid prototyping. I am especially interested in work that
-              combines technical design with real-world problem solving.
+              and rapid prototyping. My interest in engineering started less in a classroom and more standing next to a total station on a job site, seeing how a design on paper actually meets dirt, weather, and people's schedules, that's the gap I like working in.
             </p>
 
             <div className="mt-10 flex flex-wrap gap-4">
@@ -135,7 +149,11 @@ export default function AboutPage() {
             <p>
               My engineering interests developed through a combination of
               coursework, design projects, field experience, and exposure to
-              the construction and land-development process.
+              the construction and land-development process. I'm also a general member of the
+
+American Society of Mechanical Engineers
+
+, Virginia Tech chapter, staying connected to the broader engineering community outside my coursework.
             </p>
 
             <p>
@@ -226,10 +244,7 @@ export default function AboutPage() {
             </p>
 
             <p>
-              My goal is to continue developing as an engineer while
-              contributing the work ethic, field awareness, CAD experience, and
-              willingness to learn that I have gained through my education and
-              previous roles.
+              I want to end up somewhere the tolerances actually matter, defense and aerospace appeal to me because the margin for error is small and the stakes are real, and that's the kind of pressure that got me hooked on surveying and CAD in the first place.
             </p>
           </div>
         </div>
