@@ -171,7 +171,7 @@ export default function TouCanProjectPage() {
           {[
             {
               label: "My Role",
-              value: "Mechanical design, CAD, packaging, and prototype development",
+              value: "Lead CAD designer and lead prototype developer",
             },
             {
               label: "Tools",
@@ -245,17 +245,7 @@ export default function TouCanProjectPage() {
 
           <div className="space-y-6 text-lg leading-8 text-slate-600">
             <p>
-              TouCan is a smart trash can attachment developed to make sealing
-              and removing a full trash bag easier. Rather than replacing the
-              entire container, the concept adds a compact mechanical and
-              electronic system to a standard household trash can.
-            </p>
-
-            <p>
-              The project brought together mechanical design, electronics, CAD
-              assembly development, and rapid prototyping. Our team progressed
-              from early product concepts to an integrated physical prototype
-              capable of demonstrating the intended user experience.
+              TouCan is a smart trash can attachment designed to make sealing and removing a full trash bag easier. Rather than replacing the entire container, it adds a compact mechanical and electronic system to a standard household trash can. As lead CAD designer and lead prototype builder, I took the concept from early sketches through a working physical assembly, while the rest of our four-person team handled supporting electronics and testing.
             </p>
           </div>
         </div>
@@ -284,9 +274,7 @@ export default function TouCanProjectPage() {
 
             <p>
               Our team explored whether part of that process could be built
-              directly into the trash can. The goal was not to overcomplicate
-              the product, but to create an attachment that could support the
-              user at the moment the bag was ready for removal.
+              directly into the trash can. As lead CAD designer, I explored whether part of that process could be built directly into the trash can — not to overcomplicate the product, but to create an attachment that supports the user right as the bag is ready for removal.
             </p>
           </div>
         </div>
@@ -320,10 +308,7 @@ export default function TouCanProjectPage() {
               CAD before fabrication
             </h3>
             <p className="mt-4 leading-7 text-slate-600">
-              Siemens NX was used to model the enclosure, internal components,
-              mounting features, and mechanical drive system before physical
-              parts were produced. Assembly modeling helped identify
-              interference, packaging, and access issues early.
+              I modeled the enclosure, internal components, mounting features, and mechanical drive system in Siemens NX before we produced physical parts. Assembly modeling caught interference, packaging, and access issues early, before they became prototype problems.
             </p>
           </article>
 

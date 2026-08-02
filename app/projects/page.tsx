@@ -48,8 +48,7 @@ export default function ProjectsPage() {
           </h1>
 
           <p className="mt-8 max-w-3xl text-lg leading-8 text-slate-600 sm:text-xl sm:leading-9">
-            A collection of mechanical engineering projects focused on CAD,
-            product development, prototyping, and practical problem solving.
+            CAD, prototyping, and field-tested engineering — from a smart-waste mechanism to a full survey crew
           </p>
         </div>
       </section>

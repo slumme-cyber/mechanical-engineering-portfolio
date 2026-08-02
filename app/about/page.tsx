@@ -20,7 +20,7 @@ const experienceHighlights = [
   {
     title: "Division 1 Soccer Student-Manager",
     description: 
-      "Alongside my engineering coursework, I served as a student manager for the Virginia Tech men's soccer team, coordinating equipment, logistics, and game-day operations for a Division One program, an experience that strengthened my time management and ability to perform reliably under pressure.",
+      "Coordinating equipment, logistics, and game-day operations for a Division One men's soccer program.",
   }
 ];
 
@@ -68,6 +68,18 @@ const values = [
     description:
       "Surveying taught me that a small measurement error costs someone else time and money down the line, so I've gotten particular about catching mistakes before they leave my hands.",
   },
+  {
+    number: "04",
+    title: "Attention to detail",
+    description:
+      "In both design and field work, I've learned that small details can have a big impact on the success of a project.",
+  },
+  {
+    number: "05",
+    title: "Reliability Under Pressure",
+    description:
+      "Coordinating game-day logistics for a Division One program taught me that reliability isn't optional — when forty people are counting on the same schedule, showing up prepared beats showing up talented.",
+  }
 ];
 
 export default function AboutPage() {

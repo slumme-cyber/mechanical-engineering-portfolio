@@ -8,7 +8,7 @@ const projectDetails = [
   },
   {
     label: "Role",
-    value: "CAD Designer and Prototype Contributor",
+    value: "Lead CAD designer",
   },
   {
     label: "Tools",

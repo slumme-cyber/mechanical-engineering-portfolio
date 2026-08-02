@@ -53,7 +53,7 @@ export default function ContactPage() {
             </h2>
 
             <p className="mt-6 max-w-xl text-lg leading-8 text-slate-600">
-              Email is the best way to reach me. You can also connect with me
+              Text or Phone Call is the best way to reach me. You can also connect with me
               through LinkedIn or review my resume and project work.
             </p>
 
