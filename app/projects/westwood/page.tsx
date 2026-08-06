@@ -3,7 +3,6 @@ import Link from "next/link";
 
 const skills = [
   "Carlson Survey 2024",
-  "AutoCAD Civil 3D",
   "Trimble GPS",
   "Total Station",
   "Survey Drafting",
@@ -54,7 +53,7 @@ const projects = [
       "Development and review of proposed contours, finished elevations, drainage patterns, slopes, surfaces, and grading-related construction information.",
     image: "/images/westwood/grading-design.png",
     href: "/projects/westwood/grading-design",
-    tools: ["Civil 3D", "Surface Modeling", "Grading"],
+    tools: ["AutoCAD", "Surface Modeling", "Grading"],
   },
   {
     title: "As-Built Surveying",
@@ -199,7 +198,7 @@ export default function WestwoodPage() {
             },
             {
               label: "Office Software",
-              value: "Carlson Survey 2024 and AutoCAD Civil 3D",
+              value: "Carlson Survey 2024 and AutoCAD",
             },
             {
               label: "Deliverables",
@@ -296,7 +295,7 @@ export default function WestwoodPage() {
 
                 <p className="mt-5 leading-7 text-slate-600">
                   I processed survey observations and transformed field data
-                  into organized drawings using Carlson Survey and Civil 3D.
+                  into organized drawings using Carlson Survey and AutoCAD.
                   This included drafting linework, creating surfaces, preparing
                   plats, documenting property improvements, and supporting
                   grading and land-development plans.
@@ -516,8 +515,7 @@ export default function WestwoodPage() {
               <div className="mt-7 flex flex-wrap gap-3">
                 {[
                   "Carlson Survey 2024",
-                  "AutoCAD Civil 3D",
-                  "AutoCAD",
+                                    "AutoCAD",
                   "Microsoft Excel",
                 ].map((tool) => (
                   <span

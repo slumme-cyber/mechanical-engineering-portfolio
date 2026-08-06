@@ -71,35 +71,25 @@ const westwoodProjects: Project[] = [
     status: "completed",
   },
   {
-    title: "As-Built Surveying",
-    category: "As Built & Field Surveying",
-    description:
-      "Plan-and-profile documentation showing storm structures, pipe runs, slopes, invert elevations, existing ground, and proposed conditions.",
-    image: "/images/westwood/storm-sewer-profiles.png",
-    href: "/projects/westwood/storm-sewer-profiles",
-    tools: ["Trimble", "Profiles", "Stormwater"],
-    status: "completed",
-  },
-   {
-    title: "Townhome Site Layout",
-    category: "Residential Development",
-    description:
-      "Multi-lot residential planning involving repeated building footprints, setbacks, road frontage, utility connections, and site constraints.",
-    image: "/images/westwood/townhome-site-layout.png",
-    href: "/projects/westwood/townhome-site-layout",
-    tools: ["Lot Layout", "Utilities", "Civil Drafting"],
-    status: "completed",
-  },
+  title: "As-Built Surveying",
+  category: "Field Verification & Documentation",
+  description:
+    "Field collection and final documentation of constructed utilities, structures, elevations, pavement, and completed site improvements.",
+  image: "/images/westwood/as-built-plan.png",
+  href: "/projects/westwood/as-built-surveying",
+  tools: ["Trimble GPS", "AutoCAD", "As-Builts"],
+  status: "completed",
+},
   {
-    title: "Construction Documentation",
-    category: "Field & Construction Support",
-    description:
-      "Field verification, as-built information, construction observations, and documentation connecting design drawings to site conditions.",
-    image: "/images/westwood/construction-documentation.jpg",
-    href: "/projects/westwood/construction-documentation",
-    tools: ["Field Surveying", "As-Builts", "Documentation"],
-    status: "completed",
-  },
+  title: "Construction Surveying & Layout",
+  category: "Field Operations & Construction Support",
+  description:
+    "Construction stakeout, residential building layout, curb layout, and field verification supporting active residential and commercial projects.",
+  image: "/images/westwood/field-work.png",
+  href: "/projects/westwood/construction-surveying-layout",
+  tools: ["Total Station", "Stakeout", "Field Surveying"],
+  status: "completed",
+},
 ];
 
 const personalProjects: Project[] = [
@@ -109,7 +99,7 @@ const personalProjects: Project[] = [
     description:
       "A responsive engineering portfolio designed and developed to present projects, technical experience, and professional growth.",
     image: "/images/projects/portfolio-preview.jpg",
-    href: "/projects/portfolio",
+    href: "/projects/engineering-portfolio",
     tools: ["Next.js", "React", "Tailwind CSS"],
     status: "completed",
   },
