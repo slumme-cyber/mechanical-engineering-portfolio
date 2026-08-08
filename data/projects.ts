@@ -11,7 +11,7 @@ export const projects = [
     title: "Westwood Surveying",
     description:
       "Construction staking, GPS, total station, grading, and drafting experience.",
-    image: "/images/projects/westwood.jpg",
+    image: "/images/westwood/westwood-overview.jpg",
     skills: ["GPS", "Surveying", "Drafting"],
     slug: "westwood",
   },
