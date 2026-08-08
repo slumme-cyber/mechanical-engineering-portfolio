@@ -75,7 +75,7 @@ export default function EngineeringPortfolioPage() {
 
             <div className="overflow-hidden rounded-3xl border border-slate-200 bg-slate-50 shadow-sm">
               <Image
-                src="/images/portfolio-project.jpg"
+                src="/images/projects/portfolio-preview.jpg"
                 alt="Homepage of Sam Lum's mechanical engineering portfolio"
                 width={1400}
                 height={900}
