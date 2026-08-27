@@ -102,6 +102,10 @@ const navItems = [
     label: "About",
     href: "/about",
   },
+  {
+    label: "References",
+    href: "/references",
+  },
 ];
 
 export default function RootLayout({

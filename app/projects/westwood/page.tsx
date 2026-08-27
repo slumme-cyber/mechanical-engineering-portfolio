@@ -591,82 +591,74 @@ export default function WestwoodPage() {
       </section>
 
       {/* Professional Reference */}
-<section className="border-y border-slate-200 bg-slate-50/70">
-  <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
-
-    <div className="mb-12">
-      <p className="text-sm font-semibold uppercase tracking-[0.28em] text-[#7A263A]">
-        Professional Reference
+<section className="border-t border-slate-200 py-24">
+  <div className="mx-auto max-w-6xl px-6">
+    {/* Section heading */}
+    <div className="max-w-3xl">
+      <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#7A263A]">
+        Professional References
       </p>
 
-      <h2 className="mt-4 text-4xl font-semibold tracking-tight text-slate-950">
-        Internship Supervisor
+      <h2 className="mt-3 text-4xl font-semibold tracking-tight text-slate-950">
+        References
       </h2>
+
+      <p className="mt-4 text-lg leading-8 text-slate-600">
+        Professionals who can speak to my technical experience, work ethic,
+        and development as an engineer.
+      </p>
     </div>
 
-    <div className="overflow-hidden rounded-[2rem] border border-slate-200 bg-white shadow-sm">
-
-      <div className="grid lg:grid-cols-[340px_1fr]">
-
-        {/* Portrait */}
-
-        <div className="relative min-h-[420px] bg-slate-100">
-          <Image
-            src="/images/westwood/daniel-hansen.jpg"
-            alt="Daniel Hansen"
-            fill
-            className="object-cover object-top"
-          />
+    {/* Reference card */}
+    <div className="mt-12 overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm">
+      <div className="grid md:grid-cols-[220px_1fr]">
+        {/* Initials panel */}
+        <div className="flex min-h-56 items-center justify-center bg-[#7A263A] p-10">
+          <div className="flex h-28 w-28 items-center justify-center rounded-full border border-white/30 bg-white/10 text-4xl font-semibold text-white shadow-lg">
+            DH
+          </div>
         </div>
 
-        {/* Content */}
-
-        <div className="flex flex-col justify-center p-10 md:p-14">
-
-          <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#7A263A]">
+        {/* Reference information */}
+        <div className="p-8 md:p-10">
+          <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[#7A263A]">
             Westwood Professional Services
           </p>
 
-          <h3 className="mt-3 text-3xl font-semibold tracking-tight">
+          <h3 className="mt-3 text-3xl font-semibold tracking-tight text-slate-950">
             Daniel Hansen
           </h3>
 
           <p className="mt-2 text-lg text-slate-500">
-            Survey Manager / Internship Supervisor
+            Survey Manager · Internship Supervisor
           </p>
 
-          <p className="mt-8 max-w-3xl text-lg leading-8 text-slate-600">
+          <p className="mt-6 max-w-3xl text-base leading-7 text-slate-600 md:text-lg md:leading-8">
             Daniel Hansen supervised my work throughout my Summer 2026
             internship at Westwood Professional Services. Under his
-            leadership I gained experience in field surveying, drafting,
+            leadership, I gained experience in field surveying, drafting,
             grading, residential development, construction documentation,
             and professional engineering workflows.
           </p>
 
-          <div className="mt-10 flex flex-wrap gap-4">
-
+          <div className="mt-8 flex flex-wrap gap-4">
             <a
-              href="#"
-              className="inline-flex items-center rounded-full bg-slate-950 px-6 py-3 text-sm font-semibold text-white opacity-60 cursor-default"
+              href="mailto:daniel.hansen@westwoodps.com"
+              className="inline-flex items-center rounded-full bg-slate-950 px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#7A263A]"
             >
-              Email Coming Soon
+              Email Daniel
             </a>
 
             <a
-              href="#"
-              className="inline-flex items-center rounded-full border border-slate-300 bg-white px-6 py-3 text-sm font-semibold text-slate-700 opacity-60 cursor-default"
+              href="tel:+15406097437"
+              className="inline-flex items-center rounded-full border border-slate-300 bg-white px-6 py-3 text-sm font-semibold text-slate-700 transition hover:border-[#7A263A] hover:text-[#7A263A]"
             >
-              Phone Coming Soon
+              540-609-7437
             </a>
-
           </div>
-
         </div>
-
       </div>
-
     </div>
-
   </div>
 </section>
 
