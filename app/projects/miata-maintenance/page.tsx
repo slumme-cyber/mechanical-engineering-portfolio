@@ -48,6 +48,10 @@ const gallery = [
     alt: "Mazda Miata raised for underbody and suspension inspection",
   },
   {
+    src: "/images/projects/miata/catalytic-converter-installed.jpeg",
+    alt: "Catalytic converter installed underneath the Mazda Miata",
+  },
+  {
     src: "/images/projects/miata/catalytic-converter.jpeg",
     alt: "Removed catalytic converter during replacement",
   },
@@ -248,32 +252,36 @@ export default function MiataMaintenancePage() {
         </div>
       </section>
 
-      {/* Gallery */}
-      <section className="mx-auto max-w-6xl px-6 py-16 md:py-24">
-        <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#7A263A]">
-          Project Gallery
-        </p>
+  {/* Gallery */}
+<section className="border-t border-slate-200 bg-white">
+  <div className="mx-auto max-w-6xl px-6 py-16">
+    <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#7A263A]">
+      Project Gallery
+    </p>
 
-        <h2 className="mt-3 text-3xl font-semibold tracking-tight">
-          Work in Progress
-        </h2>
-
-        <div className="mt-10 grid gap-5 md:grid-cols-2">
-          {gallery.map((image) => (
-            <div
-              key={image.src}
-              className="relative aspect-[4/3] overflow-hidden rounded-2xl bg-slate-200"
-            >
-              <Image
-                src={image.src}
-                alt={image.alt}
-                fill
-                className="object-cover transition duration-500 hover:scale-[1.03]"
-              />
-            </div>
-          ))}
+    <div className="mt-8 grid gap-5 md:grid-cols-2">
+      {gallery.map((image) => (
+        <div
+          key={image.src}
+          className="relative aspect-[4/3] overflow-hidden rounded-xl bg-slate-200"
+        >
+          <Image
+            src={image.src}
+            alt={image.alt}
+            fill
+            className="object-cover"
+          />
         </div>
-      </section>
+      ))}
+    </div>
+
+    <p className="mt-8 max-w-3xl leading-7 text-slate-600">
+      The project provided practical experience working across mechanical
+      and electrical vehicle systems while reinforcing systematic
+      troubleshooting, inspection, and collaborative problem solving.
+    </p>
+  </div>
+</section>
 
       {/* Takeaways */}
       <section className="border-t border-slate-200 bg-white">
