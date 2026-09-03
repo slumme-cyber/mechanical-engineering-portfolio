@@ -114,6 +114,20 @@ const personalProjects: Project[] = [
     status: "in-progress",
   },
   {
+  title: "Miata Maintenance & Repair",
+  category: "Automotive Engineering",
+  description:
+    "Hands-on mechanical and electrical work on a Mazda MX-5 Miata, including catalytic converter replacement, headlight wiring repair, and suspension inspection.",
+  image: "/images/projects/miata/miata-hero.jpeg",
+  href: "/projects/miata-maintenance",
+  tools: [
+    "Mechanical Repair",
+    "Electrical Troubleshooting",
+    "Automotive Systems",
+  ],
+  status: "completed",
+},
+  {
     title: "Atlas-01",
     category: "Custom RC Aircraft",
     description:
