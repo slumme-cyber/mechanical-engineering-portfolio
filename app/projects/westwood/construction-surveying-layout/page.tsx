@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 
+export const metadata = { title: "Construction Surveying & Layout" };
+
 const skills = [
   "Construction Layout",
   "Total Station",

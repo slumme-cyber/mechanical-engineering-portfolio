@@ -19,7 +19,7 @@ export default function ProjectCard({
   return (
     <Link
       href={`/projects/${slug}`}
-      className="group block overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition duration-300 hover:-translate-y-2 hover:shadow-xl"
+      className="group block h-full overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition duration-300 hover:-translate-y-2 hover:shadow-xl"
     >
       <div className="relative h-64 overflow-hidden bg-slate-100">
         <Image

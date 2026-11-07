@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     "Fusion 360",
     "Engineering Student",
     "Summer 2027 Internship",
-    "Defense Engineering",
+    "Automotive Engineering",
     "Product Design",
     "Manufacturing",
     "Surveying",

@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 
+export const metadata = { title: "Residential Lot Development" };
+
 const skills = [
   "Carlson Survey 2024",
   "AutoCAD Civil 3D",

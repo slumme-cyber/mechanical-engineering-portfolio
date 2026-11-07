@@ -13,7 +13,7 @@ export default function Hero() {
   </h1>
 
   <p className="mt-3 text-2xl text-slate-700">
-    Virginia Tech
+    Class of 2028
   </p>
 
   <div className="mt-8">
@@ -23,7 +23,7 @@ export default function Hero() {
 </div>
 
   <p className="mt-4 text-slate-600">
-    Product Design • CAD • Manufacturing • Defense
+    Product Design • CAD • Manufacturing • Automotive
   </p>
           <div className="mt-10 flex flex-wrap gap-4">
   <a

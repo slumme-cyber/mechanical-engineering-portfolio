@@ -23,4 +23,20 @@ export const projects = [
   skills: ["Fusion 360", "IR Sensors", "Electronics"],
   slug: "ir-crosswalk",
 },
+  {
+    title: "Atlas",
+    description:
+      "A personal AI-assisted knowledge system that plans my days, files my notes, and tracks my projects. In daily use since August 2026.",
+    image: "/images/projects/atlas-graph.png",
+    skills: ["Obsidian", "AI Automation", "Systems Design"],
+    slug: "atlas",
+  },
+  {
+    title: "Miata Maintenance & Repair",
+    description:
+      "Hands-on work on a Mazda MX-5 Miata: catalytic converter replacement, headlight wiring repair, and suspension inspection.",
+    image: "/images/projects/miata/miata-hero.jpeg",
+    skills: ["Automotive", "Electrical", "Repair"],
+    slug: "miata-maintenance",
+  },
 ];

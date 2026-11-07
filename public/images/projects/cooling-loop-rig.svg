@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f8fafc"/>
+  <g stroke="#cbd5e1" stroke-width="1">
+    <path d="M0 50H800M0 100H800M0 150H800M0 200H800M0 250H800M0 300H800M0 350H800M0 400H800M0 450H800"/>
+    <path d="M50 0V500M100 0V500M150 0V500M200 0V500M250 0V500M300 0V500M350 0V500M400 0V500M450 0V500M500 0V500M550 0V500M600 0V500M650 0V500M700 0V500M750 0V500"/>
+  </g>
+  <!-- loop piping -->
+  <g fill="none" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M190 140H330" stroke="#7A263A"/>
+    <path d="M470 140H560V200" stroke="#7A263A"/>
+    <path d="M560 330V380H470" stroke="#2563eb"/>
+    <path d="M330 380H230" stroke="#2563eb"/>
+    <path d="M150 380H110V140H120" stroke="#2563eb"/>
+  </g>
+  <!-- pump -->
+  <circle cx="155" cy="140" r="38" fill="#fff" stroke="#0f172a" stroke-width="5"/>
+  <path d="M140 122L176 140L140 158Z" fill="#0f172a"/>
+  <!-- heater block -->
+  <rect x="330" y="100" width="140" height="80" rx="10" fill="#fff" stroke="#0f172a" stroke-width="5"/>
+  <path d="M352 140l10-16 12 32 12-32 12 32 12-32 12 32 10-16" fill="none" stroke="#7A263A" stroke-width="5" stroke-linejoin="round"/>
+  <!-- radiator with fan -->
+  <rect x="510" y="200" width="100" height="130" rx="8" fill="#fff" stroke="#0f172a" stroke-width="5"/>
+  <path d="M528 215V315M546 215V315M564 215V315M582 215V315M594 215V315" stroke="#94a3b8" stroke-width="4"/>
+  <circle cx="680" cy="265" r="42" fill="#fff" stroke="#0f172a" stroke-width="5"/>
+  <path d="M680 265l-6-34a12 12 0 0 1 20 4zM680 265l34 6a12 12 0 0 1-4 20zM680 265l6 34a12 12 0 0 1-20-4zM680 265l-34-6a12 12 0 0 1 4-20z" fill="#0f172a"/>
+  <!-- flow meter -->
+  <rect x="330" y="350" width="140" height="60" rx="30" fill="#fff" stroke="#0f172a" stroke-width="5"/>
+  <path d="M370 380h60M418 368l12 12-12 12" fill="none" stroke="#0f172a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- valve -->
+  <path d="M150 355L230 405V355L150 405Z" fill="#fff" stroke="#0f172a" stroke-width="5" stroke-linejoin="round"/>
+  <!-- temperature sensors -->
+  <g fill="#f59e0b" stroke="#0f172a" stroke-width="3">
+    <circle cx="560" cy="172" r="13"/>
+    <circle cx="560" cy="358" r="13"/>
+    <circle cx="300" cy="140" r="13"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#0f172a" text-anchor="middle">
+    <text x="155" y="215">PUMP</text>
+    <text x="400" y="80">HEATER BLOCK</text>
+    <text x="700" y="198">RADIATOR + FAN</text>
+    <text x="400" y="445">FLOW METER</text>
+    <text x="190" y="445">VALVE</text>
+  </g>
+</svg>

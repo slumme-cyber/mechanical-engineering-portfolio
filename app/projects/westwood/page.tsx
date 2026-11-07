@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 
+export const metadata = { title: "Westwood Professional Services" };
+
 const skills = [
   "Carlson Survey 2024",
   "Trimble GPS",
@@ -65,21 +67,12 @@ const projects = [
     tools: ["Trimble GPS", "Total Station", "As-Builts"],
   },
   {
-    title: "Townhome Site Layout",
-    category: "Residential Development",
-    description:
-      "Multi-unit residential planning involving building footprints, repeated lot geometry, setbacks, road frontage, utility connections, and constrained site layouts.",
-    image: "/images/westwood/townhome-site-layout.png",
-    href: "/projects/westwood/townhome-site-layout",
-    tools: ["Site Layout", "Utilities", "Civil Drafting"],
-  },
-  {
     title: "Construction Documentation",
     category: "Field & Construction Support",
     description:
       "Field verification, construction observations, measurements, and documentation connecting engineering drawings with real site conditions.",
     image: "/images/westwood/construction-documentation.jpg",
-    href: "/projects/westwood/construction-documentation",
+    href: "/projects/westwood/construction-surveying-layout",
     tools: ["Field Surveying", "Documentation", "Verification"],
   },
 ];

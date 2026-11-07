@@ -1,5 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
+import SkillGroups from "@/components/SkillGroups";
+
+export const metadata = { title: "About" };
 
 const experienceHighlights = [
   {
@@ -24,37 +27,12 @@ const experienceHighlights = [
   }
 ];
 
-const technicalSkills = [
-  "Siemens NX",
-  "Fusion 360",
-  "AutoCAD Civil 3D",
-  "Carlson Survey",
-  "GPS Surveying",
-  "Total Station",
-  "GD&T",
-  "Product Design",
-  "Python",
-  "MATLAB",
-  "Git",
-  "Next.js",
-  "Laser Cutting",
-  "3D Printing",
-  "CNC Machining",
-  "Electronics",
-  "IR Sensors",
-  "Arduino",
-  "Welding",
-  "Carpentry",
-  "ASME",
-  "Excel"
-];
-
 const values = [
   {
     number: "01",
     title: "Practical design",
     description:
-      "On TouCan, I learned that a good mechanism means nothing if it doesn't fit the wiring, the motor, and the user's hand all at once, that's the kind of constraint-juggling I actually enjoy.",
+      "On TouCan, I learned that a good mechanism means nothing if it doesn't fit the wiring, the motor, and the user's hand all at once. That's the kind of constraint-juggling I actually enjoy.",
   },
   {
     number: "02",
@@ -102,7 +80,7 @@ export default function AboutPage() {
             <p className="mt-8 max-w-3xl text-lg leading-8 text-slate-600 sm:text-xl sm:leading-9">
               I am a mechanical engineering student at Virginia Tech with
               experience in CAD, product development, surveying, construction,
-              and rapid prototyping. My interest in engineering started less in a classroom and more standing next to a total station on a job site, seeing how a design on paper actually meets dirt, weather, and people's schedules, that's the gap I like working in.
+              and rapid prototyping. My interest in engineering started less in a classroom and more standing next to a total station on a job site, seeing how a design on paper actually meets dirt, weather, and people's schedules. That's the gap I like working in.
             </p>
 
             <div className="mt-10 flex flex-wrap gap-4">
@@ -207,7 +185,7 @@ American Society of Mechanical Engineers
             </p>
           </div>
 
-          <div className="mt-14 grid gap-6 md:grid-cols-3">
+          <div className="mt-14 grid gap-6 md:grid-cols-2">
             {experienceHighlights.map((item) => (
               <article
                 key={item.title}
@@ -249,14 +227,14 @@ American Society of Mechanical Engineers
             </p>
 
             <p>
-              I am particularly interested in defense, aerospace, and advanced
+              I am particularly interested in automotive, aerospace, and advanced
               manufacturing environments where engineers work across
               disciplines and where attention to detail, reliability, and
               practical problem solving are essential.
             </p>
 
             <p>
-              I want to end up somewhere the tolerances actually matter, defense and aerospace appeal to me because the margin for error is small and the stakes are real, and that's the kind of pressure that got me hooked on surveying and CAD in the first place.
+              I want to end up somewhere the tolerances actually matter. Automotive and aerospace appeal to me because the margin for error is small and the stakes are real, and that's the kind of pressure that got me hooked on surveying and CAD in the first place.
             </p>
           </div>
         </div>
@@ -315,15 +293,8 @@ American Society of Mechanical Engineers
             </h2>
           </div>
 
-          <div className="mx-auto mt-12 flex max-w-5xl flex-wrap justify-center gap-3">
-            {technicalSkills.map((skill) => (
-              <span
-                key={skill}
-                className="rounded-full border border-slate-200 bg-white px-5 py-3 text-sm font-medium text-slate-700 shadow-sm"
-              >
-                {skill}
-              </span>
-            ))}
+          <div className="mt-12">
+            <SkillGroups />
           </div>
         </div>
       </section>

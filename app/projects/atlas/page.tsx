@@ -1,4 +1,7 @@
+import Image from "next/image";
 import Link from "next/link";
+
+export const metadata = { title: "Atlas" };
 
 const projectDetails = [
   {
@@ -7,7 +10,7 @@ const projectDetails = [
   },
   {
     label: "Timeline",
-    value: "2026 – Present",
+    value: "Built Summer 2026, in daily use since August 2026",
   },
   {
     label: "Tools",
@@ -23,9 +26,11 @@ const features = [
   "Centralized personal knowledge system built in Obsidian",
   "Structured organization for projects, academics, career, and planning",
   "AI-assisted capture, classification, linking, and information retrieval",
-  "Nightly processing workflow for organizing new information",
-  "Defined permissions and governance rules for automated changes",
-  "Designed to support future scheduling, voice capture, and automated planning",
+  "Automated morning brief, daily plan, midday check, and nightly close-out, written to one file per day",
+  "Nightly filing of new captures into people, projects, health logs, and tasks",
+  "Weekly reviews and exam study plans built from the course material in the vault",
+  "Handwritten lecture notes converted into searchable, linked course notes",
+  "Defined permissions and governance rules, with every automated change logged",
 ];
 
 export default function AtlasPage() {
@@ -140,23 +145,82 @@ export default function AtlasPage() {
         </div>
       </section>
 
+      {/* GRAPH */}
+      <section className="px-6 pt-20 sm:pt-24">
+        <div className="mx-auto max-w-6xl">
+          <p className="text-sm font-semibold uppercase tracking-[0.24em] text-[#7A263A]">
+            The System Today
+          </p>
+
+          <h2 className="mt-4 max-w-3xl text-3xl font-bold tracking-tight text-slate-950">
+            Every note, and every link between them.
+          </h2>
+
+          <div className="relative mt-10 aspect-[1500/1159] w-full overflow-hidden rounded-[2rem] bg-[#1b1b1b]">
+            <Image
+              src="/images/projects/atlas-graph.png"
+              alt="Obsidian graph view of the Atlas vault, showing hundreds of linked notes grouped into clusters"
+              fill
+              sizes="(min-width: 1152px) 1152px, 100vw"
+              className="object-contain"
+            />
+          </div>
+
+          <p className="mt-4 text-sm leading-6 text-slate-500">
+            Obsidian&apos;s graph view of the vault, November 2026. Each dot
+            is a note and each line is a link. Larger dots are notes with
+            more connections.
+          </p>
+        </div>
+      </section>
+
       {/* STATUS */}
       <section className="px-6 py-20 sm:py-24">
         <div className="mx-auto max-w-4xl">
           <p className="text-sm font-semibold uppercase tracking-[0.24em] text-[#7A263A]">
-            Current Development
+            Outcome
           </p>
 
           <h2 className="mt-4 text-3xl font-bold tracking-tight text-slate-950">
-            Expanding from knowledge storage into an automated personal system.
+            From a set of design documents to a system I use every day.
           </h2>
 
           <p className="mt-6 leading-8 text-slate-600">
-            The current system includes the core vault architecture, project
-            and knowledge organization, governance rules, dashboards, and an
-            initial nightly processing workflow. Future development will focus
-            on deeper automation, calendar integration, voice capture, and
-            automated daily planning.
+            Atlas has been in daily use since August 2026. Each morning it
+            writes a brief and a prioritized plan from my class schedule,
+            deadlines, and notes. Each night it files whatever I captured
+            during the day and closes out the day&apos;s record. Weekly
+            reviews, exam study plans, health logs, and lecture-note
+            processing all run on the same structure and rules.
+          </p>
+
+          <p className="mt-5 leading-8 text-slate-600">
+            The build is complete. The work now is maintenance: tightening
+            rules when something breaks, and keeping the system accurate as
+            my semester and projects change.
+          </p>
+        </div>
+      </section>
+
+      {/* LESSONS LEARNED */}
+      <section className="bg-slate-50 px-6 py-20 sm:py-24">
+        <div className="mx-auto max-w-4xl">
+          <p className="text-sm font-semibold uppercase tracking-[0.24em] text-[#7A263A]">
+            Lessons Learned
+          </p>
+
+          <h2 className="mt-4 text-3xl font-bold tracking-tight text-slate-950">
+            A system worth using takes time and refinement.
+          </h2>
+
+          <p className="mt-6 leading-8 text-slate-600">
+            The first version of Atlas worked on paper. Making it worth
+            using every day took weeks of running it on real information,
+            finding where it broke, and refining it. That was especially
+            true where several tools had to work together: getting the
+            vault, the AI, and the scheduled automation to cooperate
+            reliably took more iteration than building any one piece on
+            its own.
           </p>
         </div>
       </section>

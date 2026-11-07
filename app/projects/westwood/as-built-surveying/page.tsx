@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 
+export const metadata = { title: "As-Built Surveying" };
+
 const skills = [
   "AutoCAD",
   "Carlson Survey 2024",
@@ -532,10 +534,10 @@ export default function AsBuiltSurveyingPage() {
           </Link>
 
           <Link
-            href="/projects/westwood/townhome-site-layout"
+            href="/projects/westwood/construction-surveying-layout"
             className="inline-flex items-center gap-2 text-sm font-semibold text-[#7A263A] transition hover:opacity-70"
           >
-            Next: Townhome Site Layout
+            Next: Construction Surveying &amp; Layout
             <span aria-hidden="true">→</span>
           </Link>
         </div>

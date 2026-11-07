@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+export const metadata = { title: "Contact" };
+
 const contactMethods = [
   {
     label: "Email",
@@ -36,7 +38,7 @@ export default function ContactPage() {
           <p className="mt-8 max-w-3xl text-lg leading-8 text-slate-600 sm:text-xl sm:leading-9">
             I am seeking a Summer 2027 mechanical engineering internship and
             would be glad to discuss opportunities involving design, product
-            development, manufacturing, testing, or defense-related engineering.
+            development, manufacturing, testing, or automotive engineering.
           </p>
         </div>
       </section>

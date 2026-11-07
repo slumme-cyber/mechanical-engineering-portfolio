@@ -2,6 +2,8 @@
 import Image from "next/image";
 import Link from "next/link";
 
+export const metadata = { title: "TouCan" };
+
 const timeline = [
   {
     number: "01",
@@ -273,8 +275,7 @@ export default function TouCanProjectPage() {
             </p>
 
             <p>
-              Our team explored whether part of that process could be built
-              directly into the trash can. As lead CAD designer, I explored whether part of that process could be built directly into the trash can — not to overcomplicate the product, but to create an attachment that supports the user right as the bag is ready for removal.
+              As lead CAD designer, I explored whether part of that process could be built directly into the trash can — not to overcomplicate the product, but to create an attachment that supports the user right as the bag is ready for removal.
             </p>
           </div>
         </div>

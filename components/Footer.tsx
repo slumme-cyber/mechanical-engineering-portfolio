@@ -12,7 +12,7 @@ export default function Footer() {
           </h2>
 
           <p className="mt-3 text-sm font-semibold uppercase tracking-[0.18em] text-[#7A263A]">
-            Mechanical Engineering Student • Virginia Tech
+            Mechanical Engineering • Virginia Tech
           </p>
 
           <p className="mt-5 leading-7 text-slate-700">
@@ -36,17 +36,17 @@ export default function Footer() {
             </Link>
 
             <Link
-              href="/design-gallery"
-              className="block font-medium text-slate-800 transition-colors duration-200 hover:text-[#7A263A]"
-            >
-              Design Gallery
-            </Link>
-
-            <Link
               href="/about"
               className="block font-medium text-slate-800 transition-colors duration-200 hover:text-[#7A263A]"
             >
               About
+            </Link>
+
+            <Link
+              href="/references"
+              className="block font-medium text-slate-800 transition-colors duration-200 hover:text-[#7A263A]"
+            >
+              References
             </Link>
 
             <Link
@@ -87,6 +87,13 @@ export default function Footer() {
               className="block font-medium text-slate-800 transition-colors duration-200 hover:text-[#7A263A]"
             >
               Email
+            </a>
+
+            <a
+              href="tel:+15404806127"
+              className="block font-medium text-slate-800 transition-colors duration-200 hover:text-[#7A263A]"
+            >
+              (540) 480-6127
             </a>
           </div>
         </div>

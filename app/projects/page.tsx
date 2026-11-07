@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 
+export const metadata = { title: "Projects" };
+
 type ProjectStatus = "completed" | "in-progress" | "coming-soon";
 
 type Project = {
@@ -98,7 +100,7 @@ const personalProjects: Project[] = [
     category: "Web Development",
     description:
       "A responsive engineering portfolio designed and developed to present projects, technical experience, and professional growth.",
-    image: "/images/projects/portfolio-preview.jpg",
+    image: "/images/projects/portfolio-home.png",
     href: "/projects/engineering-portfolio",
     tools: ["Next.js", "React", "Tailwind CSS"],
     status: "completed",
@@ -108,10 +110,10 @@ const personalProjects: Project[] = [
     category: "AI Knowledge System",
     description:
       "A personalized second-brain system connecting engineering knowledge, project documentation, planning, automation, and daily workflows.",
-    image: "/images/projects/atlas-preview.png",
+    image: "/images/projects/atlas-graph.png",
     href: "/projects/atlas",
     tools: ["Obsidian", "AI Automation", "Knowledge Management"],
-    status: "in-progress",
+    status: "completed",
   },
   {
   title: "Miata Maintenance & Repair",
@@ -128,12 +130,12 @@ const personalProjects: Project[] = [
   status: "completed",
 },
   {
-    title: "Atlas-01",
-    category: "Custom RC Aircraft",
+    title: "Cooling Loop Test Rig",
+    category: "Thermal Test Rig",
     description:
-      "A semester-long aircraft development project covering requirements, preliminary sizing, CAD, simulation, manufacturing, and flight testing.",
-    image: "/images/projects/atlas-01-preview.png",
-    tools: ["CAD", "Aerodynamics", "3D Printing"],
+      "A closed liquid-cooling loop with a controlled electric heat load, radiator, and fan, instrumented to measure heat rejection across flow rates and fan speeds and compare results with an ε-NTU prediction.",
+    image: "/images/projects/cooling-loop-rig.svg",
+    tools: ["Instrumentation", "Data Acquisition", "Heat Transfer"],
     status: "coming-soon",
   },
 ];
@@ -388,7 +390,7 @@ export default function ProjectsPage() {
         <div className="mx-auto grid max-w-7xl gap-10 px-6 py-20 md:grid-cols-[1fr_auto] md:items-center lg:px-8">
           <div>
             <p className="text-sm font-semibold uppercase tracking-[0.28em] text-rose-300">
-              ABOOUT
+              About
             </p>
 
             <h2 className="mt-4 max-w-3xl text-3xl font-semibold tracking-[-0.035em] sm:text-4xl">

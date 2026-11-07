@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "References | Sam Lum",
+  title: "References",
   description:
     "Professional references for Sam Lum's engineering experience and work.",
 };
