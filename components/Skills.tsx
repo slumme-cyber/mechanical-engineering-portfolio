@@ -1,5 +1,6 @@
 import AnimatedSection from "./AnimatedSection";
 import SkillGroups from "./SkillGroups";
+import Certifications from "./Certifications";
 
 export default function Skills() {
   return (
@@ -10,6 +11,7 @@ export default function Skills() {
         </h2>
 
         <SkillGroups />
+        <Certifications />
       </section>
     </AnimatedSection>
   );
